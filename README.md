@@ -1,16 +1,11 @@
-# test-js
+# hello-quil
 
-A Quil sketch designed to ... well, that part is up to you.
+A Quil sketch designed to replicate the demo [5.17: Introduction to Matter.js - The Nature of Code](https://www.youtube.com/watch?v=urR596FsU68) using ClojureScript.
+
+A discussion on it is available on my blog, starting with the post at https://bunkham.com/matter-patience-adventures-quil-clojurescript-matter-js/
 
 ## Usage
 
 Run `lein compile` command and open `index.html` in your browser.
 
-For interactive development run `lein cljsbuild auto` command. This command will be recompiling cljs to js each time you modify `core.cljs` and you can see result immediately by refreshing page.
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+For interactive development run `lein figwheel` command. This command will be recompiling cljs to js each time you modify `core.cljs` and you can see result immediately on the page servered at `http://localhost:3449`.
