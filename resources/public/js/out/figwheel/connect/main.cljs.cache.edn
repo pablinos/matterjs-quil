@@ -1,0 +1,1 @@
+{:rename-macros {}, :renames {}, :use-macros {}, :excludes #{}, :name figwheel.connect.main, :imports nil, :requires {hello_quil.core hello_quil.core, figwheel.client figwheel.client, figwheel.client.utils figwheel.client.utils}, :uses nil, :require-macros nil, :cljs.analyzer/constants {:seen #{:build-id :websocket-url}, :order [:build-id :websocket-url]}, :doc nil}
